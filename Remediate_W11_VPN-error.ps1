@@ -8,4 +8,4 @@ start-sleep 2
 Rasphone -r "$VPNName"
 
 # Force Sync Intune
-Get-ScheduledTask | ? {$_.TaskName -eq 'Login Schedule created by enrollmet client'} | Start-ScheduledTask
+Get-ScheduledTask | ? {$_.TaskName -eq 'Pushlaunch'} | Start-ScheduledTask
