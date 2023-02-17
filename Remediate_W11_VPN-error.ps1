@@ -3,6 +3,7 @@
 
 # Remove VPN
 $VPNName = "AOVPN" # Write down the VPN Name as shown in the "Name" output.
+Rasphone -h "$VPNName"
 Rasphone -r "$VPNName"
 
 # Force Sync Intune
