@@ -1,0 +1,2 @@
+﻿New-ItemProperty -LiteralPath "HKCU:\Control Panel\International" -Name "sShortTime" -Value "HH:mm" -PropertyType String -Force -ea SilentlyContinue;
+New-ItemProperty -LiteralPath "HKCU:\Control Panel\International" -Name "sTimeFormat" -Value "HH:mm:ss" -PropertyType String -Force -ea SilentlyContinue;
